@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trunfo - Your ultimate card game experience">
+    <meta name="keywords" content="Trunfo, card game, play, fun, strategy">
+    <meta name="author" content="Cristiano Franca">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/image/cards.png" type="image/x-icon">
+    <title>Trunfo</title>
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="dados">
+            <button type="button" id="closeDados">X</button>
+            <label for="playerNameInput">Player Name:</label>
+            <input type="text" id="playerNameInput" name="playerName" required>
+            <button type="submit" id="joinGame">Join Game</button>
+    </div>
+<div id="container">
+    <div id="welcome">
+    <h1>Welcome to Trunfo</h1>
+    <p>Your ultimate card game experience.</p>
+    <button type="button" id="startGame">Start Game &#9754;</button>
+    </div>
+
+<!-- Modal de regras -->
+<div id="rulesModal">
+  <div class="rules-content">
+    <button type="button" id="closeRules">✖</button>
+    <h2>Game Rules</h2>
+    <ul>
+      <li>Choose your card and click on an attribute to compete.</li>
+      <li>If your value is higher, you win the round and take the opponent's card.</li>
+      <li>If you lose, the computer wins the round.</li>
+      <li>If it's a tie, the same player plays again.</li>
+      <li>The winner is the one who collects all the cards first.</li>
+      <li>In the "Rank in UK" attribute, the <strong>lower the number</strong>, the better the result.</li>
+    </ul>
+  </div>
+</div>
+
+    <div id="game">
+    <h2>Let's Play! <span id="playerNameDisplay"></span></h2>
+    <p>Get ready for an exciting game of Trunfo!</p>
+    <div class="game-buttons">
+        <button type="button" id="playButton" class="btn">Play</button>
+        <button type="button" id="exitButton" class="btn">Exit</button>
+        <button type="button" id="rulesButton" class="btn">Rules</button>
+    </div>
+        <div class="desk">
+        <h2><span id="playerNameDisplay1"></span><span id="computerNameDisplay"></span></h2>
+
+        <div class="card-container">
+            <div class="player-card" id="player-card">
+                <h3>Your Card</h3>
+                <img src="image/cards.png" class="card-image" alt="Your Card">
+            </div>
+            <div class="computer-card">
+                <h3>Computer's Card</h3>
+                <img src="image/cards.png" class="card-image" alt="Computer's Card">
+            </div>
+        </div>
+    </div>
+    <p id="result"></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script src="script.js" type="module"></script>
+</body>
+</html>
