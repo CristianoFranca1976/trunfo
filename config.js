@@ -5,9 +5,9 @@ const cards = [
         name: "London",
         image: "image/london.jpg",
         attributes: {
-            area: 1572,
-            population: 8945309,
-            density: 5690,
+            area: 1737.9,
+            population: 9787.426,
+            density: 5.630,
             postcodeAreas: 120,
             rankUK: 1
         }
@@ -16,9 +16,9 @@ const cards = [
         name: "Nottingham",
         image: "image/nottingham.jpg",
         attributes: {
-            area: 74.36,
-            population: 321500,
-            density: 4325,
+            area: 176.4,
+            population: 729.977,
+            density: 4.139,
             postcodeAreas: 12,
             rankUK: 9
         }
@@ -27,118 +27,118 @@ const cards = [
         name: "Manchester",
         image: "image/manchester.jpg",
         attributes: {
-            area: 115.6,
-            population: 553230,
-            density: 4785,
+            area: 630.3,
+            population: 2553.379,
+            density: 4.051,
             postcodeAreas: 35,
-            rankUK: 6
+            rankUK: 2
         }
     },
     {
         name: "Birmingham",
         image: "image/birmingham.jpg",
         attributes: {
-            area: 103.3,
-            population: 1141374,
-            density: 11500,
+            area: 598.9,
+            population: 2440.986,
+            density: 4.076,
             postcodeAreas: 40,
-            rankUK: 2
+            rankUK: 3
         }
     },
     {
         name: "Liverpool",
         image: "image/liverpool.jpg",
         attributes: {
-            area: 2.5,
-            population: 1500,
-            density: 600,
+            area: 199.6,
+            population: 864.122,
+            density: 4.329,
             postcodeAreas: 15,
-            rankUK: 9
+            rankUK: 6
         }
     },
     {
         name: "Bristol",
         image: "image/bristol.jpg",
         attributes: {
-            area: 37,
-            population: 463400,
-            density: 12500,
+            area: 144.4,
+            population: 617.280,
+            density: 4.274,
             postcodeAreas: 20,
-            rankUK: 10
+            rankUK: 11
         }
     },
     {
         name: "Oxford",
         image: "image/oxford.jpg",
         attributes: {
-            area: 45.59,
-            population: 154326,
-            density: 3390,
+            area: 37.4,
+            population: 171.380,
+            density: 4.585,
             postcodeAreas: 12,
-            rankUK: 5
+            rankUK: 45
         }
     },
     {
         name: "Coventry",
         image: "image/conventry.jpg",
         attributes: {
-            area: 102.93,
-            population: 371521,
-            density: 3600,
+            area: 81.3,
+            population: 359.262,
+            density: 4.420,
             postcodeAreas: 12,
-            rankUK: 12
+            rankUK: 20
         }
     },
     {
         name: "Brington",
         image: "image/brington.jpg",
         attributes: {
-            area: 50,
-            population: 200000,
-            density: 4000,
+            area: 89.4,
+            population: 474.485,
+            density: 5.304,
             postcodeAreas: 10,
-            rankUK: 12
+            rankUK: 15
         }
     },
     {
         name: "Newcastle upon Tyne",
         image: "image/newcastle.jpg",
         attributes: {
-            area: 114.9,
-            population: 149000,
-            density: 1300,
+            area: 180.5,
+            population: 774.891,
+            density: 4.292,
             postcodeAreas: 12,
-            rankUK: 16
+            rankUK: 8
         }
     },
     {
         name: "Sheffield",
         image: "image/sheffield.jpg",
         attributes: {
-            area: 367.6,
-            population: 584853,
-            density: 1600,
+            area: 167.5,
+            population: 685.368,
+            density: 4.092,
             postcodeAreas: 28,
-            rankUK: 11
+            rankUK: 10
         }
     },
     {
         name: "Cambridge",
         image: "image/cambridge.jpg",
         attributes: {
-            area: 40.70,
-            population: 130818,
-            density: 3215,
+            area: 42.1,
+            population: 158.434,
+            density: 3.760,
             postcodeAreas: 12,
-            rankUK: 6
+            rankUK: 49
         }
     },
     {
         name: "Leeds",
         image: "image/leeds.jpg",
         attributes: {
-            area: 113.5,
-            population: 789194,
+            area: 487.8,
+            population: 1777.934,
             density: 6950,
             postcodeAreas: 33,
             rankUK: 4
@@ -148,9 +148,9 @@ const cards = [
         name: "Bath",
         image: "image/bath.jpg",
         attributes: {
-            area: 9.83,
-            population: 89000,
-            density: 2900,
+            area: 29.0,
+            population: 94.092,
+            density: 3.214,
             postcodeAreas: 12,
             rankUK: 14
         }
@@ -159,111 +159,111 @@ const cards = [
         name: "Leicester",
         image: "image/leicester.jpg",
         attributes: {
-            area: 116.2,
-            population: 354224,
-            density: 3050,
+            area: 109.4,
+            population: 508.916,
+            density: 4.653,
             postcodeAreas: 16,
-            rankUK: 10
+            rankUK: 13
         }
     },
     {
         name: "Southampton",
         image: "image/southampton.jpg",
         attributes: {
-            area: 51.3,
-            population: 252796,
-            density: 4900,
+            area: 192.0,
+            population: 855.569,
+            density: 4.455,
             postcodeAreas: 2,
-            rankUK: 18
+            rankUK: 7
         }
     },
     {
         name: "Plymouth",
         image: "image/plymouth.jpg",
         attributes: {
-            area: 364.0,
-            population: 262000,
-            density: 720,
+            area: 59.7,
+            population: 260.263,
+            density: 4.356,
             postcodeAreas: 1,
-            rankUK: 22
+            rankUK: 30
         }
     },
     {
-        name: "Portsmouth",
-        image: "image/portsmouth.jpg",
+        name: "Tyneside",
+        image: "image/tyneside.jpg",
         attributes: {
-            area: 40.3,
-            population: 205000,
-            density: 5080,
+            area: 180.5,
+            population: 774.891,
+            density: 4.292,
             postcodeAreas: 1,
-            rankUK: 24
+            rankUK: 8
         }
     },
     {
         name: "Kingston upon Hull",
         image: "image/KingstonUponHull.jpg",
         attributes: {
-            area: 71.45,
-            population: 260000,
-            density: 3600,
+            area: 82.6,
+            population: 314.018,
+            density: 3.802,
             postcodeAreas: 1,
-            rankUK: 25
+            rankUK: 24
         }
     },
     {
-        name: "Bradford",
-        image: "image/bradford.jpg",
+        name: "Belfast",
+        image: "image/belfast.jpg",
         attributes: {
-            area: 365.2,
-            population: 537173,
-            density: 1500,
+            area: 960,
+            population: 595.879,
+            density: 620,
             postcodeAreas: 1,
-            rankUK: 26
+            rankUK: 12
         }
     },
     {
         name: "Cardiff",
         image: "image/cardiff.jpg",
         attributes: {
-            area: 140.3,
-            population: 362756,
-            density: 2580,
+            area: 102.3,
+            population: 447.287,
+            density: 4.370,
             postcodeAreas: 1,
-            rankUK: 28
+            rankUK: 17
         }
     },
     {
         name: "Derby",
         image: "image/derby.jpg",
         attributes: {
-            area: 78.03,
-            population: 257174,
-            density: 3300,
+            area: 64.1,
+            population: 270.468,
+            density: 4.219,
             postcodeAreas: 1,
-            rankUK: 28
+            rankUK: 29
         }
     },
     {
         name: "Stoke-on-Trent",
         image: "image/stokeontrent.jpg",
         attributes: {
-            area: 92.74,
-            population: 249008,
-            density: 2685,
+            area: 103.9,
+            population: 372.775,
+            density: 3.588,
             postcodeAreas: 1,
-            rankUK: 30
+            rankUK: 19
         }
     },
     {
         name: "Bournemouth",
         image: "image/bournemouth.jpg",
         attributes: {
-            area: 46.8,
-            population: 197700,
+            area: 131.0,
+            population: 466.266,
             density: 4200,
             postcodeAreas: 1,
-            rankUK: 32
-        }
+            rankUK: 16
+        } // atualizado ate aqui.
     },
     {
         name: "Whitby",
