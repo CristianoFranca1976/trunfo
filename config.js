@@ -266,272 +266,269 @@ const cards = [
         } // atualizado ate aqui.
     },
     {
-        name: "Whitby",
-        image: "image/whitby.jpg",
+        name: "Teesside",
+        image: "image/teesside.jpg",
         attributes: {
-            area: 12.0,
-            population: 13213,
-            density: 1100,
+            area: 108.2,
+            population: 376.633,
+            density: 3.482,
             postcodeAreas: 1,
-            rankUK: 34
+            rankUK: 18        }
+    },
+    {
+        name: "Birkenhead",
+        image: "image/birkenhead.jpg",
+        attributes: {
+            area: 88.2,
+            population: 325.264,
+            density: 3.687,
+            postcodeAreas: 1,
+            rankUK: 22
         }
     },
     {
-        name: "Durham",
-        image: "image/durham.jpg",
+        name: "Preston",
+        image: "image/Preston.jpg",
         attributes: {
-            area: 223.0,
-            population: 48069,
-            density: 215,
+            area: 82.4,
+            population: 313.322,
+            density: 3.802,
             postcodeAreas: 1,
-            rankUK: 36
-        }
-    },
-    {
-        name: "Harrogate",
-        image: "image/harrogate.jpg",
-        attributes: {
-            area: 88.0,
-            population: 75070,
-            density: 853,
-            postcodeAreas: 1,
-            rankUK: 38
+            rankUK: 25
         }
     },
     {
         name: "Edinburgh",
         image: "image/edinburgh.jpg",
         attributes: {
-            area: 264,
-            population: 540000,
-            density: 2045,
+            area: 125,
+            population: 482.270,
+            density: 4.172,
             postcodeAreas: 1,
-            rankUK: 40
+            rankUK: 14
         }
     },
     {
         name: "Reading",
         image: "image/reading.jpg",
         attributes: {
-            area: 40.2,
-            population: 163203,
-            density: 4000,
+            area: 83.7,
+            population: 318.014,
+            density: 3.800,
             postcodeAreas: 1,
-            rankUK: 42
+            rankUK: 23
         }
     },
     {
         name: "Doncaster",
         image: "image/doncaster.jpg",
         attributes: {
-            area: 360.0,
-            population: 310000,
-            density: 861,
+            area: 43.5,
+            population: 158.141,
+            density: 3.634,
             postcodeAreas: 22,
-            rankUK: 65
+            rankUK: 50
         }
     },
      {
-        name: "St Albans",
-        image: "image/StAlbans.jpg",
+        name: "Newport",
+        image: "image/newport.jpg",
         attributes: {
-            area: 40.6,
-            population: 147000,
-            density: 3600,
+            area: 84.2,
+            population: 306.844,
+            density: 3.643,
             postcodeAreas: 8,
-            rankUK: 73
+            rankUK: 26
         }
     },
     {
-        name: "Alnwick",
+        name: "Swansea",
         image: "image/alnwick.jpg",
         attributes: {
-            area: 1.0,
-            population: 8000,
-            density: 8000,
+            area: 87.6,
+            population: 300.352,
+            density: 3.431,
             postcodeAreas: 4,
-            rankUK: 99
+            rankUK: 27
         }
     },
     {
-        name: "Carlisle",
-        image: "image/carlisle.jpg",
+        name: "Luton",
+        image: "image/luton.jpg",
         attributes: {
-            area: 104.0,
-            population: 75000,
-            density: 721,
+            area: 50.7,
+            population: 258.018,
+            density: 5.088,
             postcodeAreas: 10,
-            rankUK: 92
+            rankUK: 31
         }
     },
     {
         name: "York",
         image: "image/york.jpg",
         attributes: {
-            area: 271.9,
-            population: 208000,
-            density: 765,
+            area: 34.0,
+            population: 153.717,
+            density: 4.518,
             postcodeAreas: 14,
             rankUK: 52
         }
     },
     {
-        name: "Salisbury",
-        image: "image/salisbury.jpg",
+        name: "Blackpool",
+        image: "image/blackpool.jpg",
         attributes: {
-            area: 39.0,
-            population: 40302,
-            density: 1000,
+            area: 61.3,
+            population: 239.409,
+            density: 3.908,
             postcodeAreas: 6,
-            rankUK: 105
+            rankUK: 34
         }
     },
     {
-        name: "Glasgow",
-        image: "image/glasgow.jpg",
+        name: "Aberdeen",
+        image: "image/aberdeen.jpg",
         attributes: {
-            area: 175.5,
-            population: 635640,
-            density: 3620,
+            area: 69.5,
+            population: 208.190,
+            density: 3.050,
             postcodeAreas: 45,
-            rankUK: 5
+            rankUK: 39
         }
     },
     {
-        name: "Norwich",
-        image: "image/norwich.jpg",
+        name: "Swindon",
+        image: "image/swindon.jpg",
         attributes: {
-            area: 39.0,
-            population: 213166,
-            density: 5000,
+            area: 47.1,
+            population: 185.609,
+            density: 3.945,
             postcodeAreas: 18,
-            rankUK: 50
+            rankUK: 40
         }
     },
     {
-        name: "Burford",
-        image: "image/burford.jpg",
+        name: "Crawley",
+        image: "image/crawley.jpg",
         attributes: {
-            area: 1.0,
-            population: 1000,
-            density: 1000,
+            area: 58.1,
+            population: 180.508,
+            density: 3.107,
             postcodeAreas: 3,
-            rankUK: 145
+            rankUK: 41
         }
     },
     {
         name: "Gloucester",
         image: "image/gloucester.jpg",
         attributes: {
-            area: 5.0,
-            population: 32000,
-            density: 6400,
+            area: 40.4,
+            population: 150.053,
+            density: 3.718,
             postcodeAreas: 7,
-            rankUK: 85
+            rankUK: 53
         }
     },
     {
         name: "Chelmsford",
         image: "image/chelmsford.jpg",
         attributes: {
-            area: 88.0,
-            population: 180000,
-            density: 2045,
+            area: 26.2,
+            population: 111.511,
+            density: 4.259,
             postcodeAreas: 13,
-            rankUK: 42
+            rankUK: 72
         }
     },
     {
-        name: "Berwick-upon-Tweed",
-        image: "image/BerwickUponTweed.jpg",
+        name: "Ipswich",
+        image: "image/ipswich.jpg",
         attributes: {
-            area: 51.0,
-            population: 32000,
-            density: 627,
+            area: 49.1,
+            population: 178.835,
+            density: 3.639,
             postcodeAreas: 5,
-            rankUK: 142
+            rankUK: 42
         }
     },
     {
         name: "Sunderland",
         image: "image/sunderland.jpg",
         attributes: {
-            area: 362.0,
-            population: 174000,
-            density: 482,
+            area: 137.5,
+            population: 335.415,
+            density: 4.018,
             postcodeAreas: 15,
-            rankUK: 80
+            rankUK: 21
         }
     },
     {
         name: "Milton Keynes",
         image: "image/MiltonKeynes.jpg",
         attributes: {
-            area: 89.0,
-            population: 270000,
-            density: 3000,
+            area: 62.5,
+            population: 229.941,
+            density: 3.678,
             postcodeAreas: 12,
-            rankUK: 45
+            rankUK: 35
         }
     },
     {
         name: "Exeter",
         image: "image/exeter.jpg",
         attributes: {
-            area: 47.0,
-            population: 130428,
-            density: 2775,
+            area: 28.5,
+            population: 117.763,
+            density: 4.133,
             postcodeAreas: 11,
-            rankUK: 91
+            rankUK: 67
         }
     },
     {
-        name: "Ripon",
-        image: "image/ripon.jpg",
+        name: "Wigan",
+        image: "image/wigan.jpg",
         attributes: {
-            area: 28.0,
-            population: 16000,
-            density: 571,
+            area: 43.8,
+            population: 175.405,
+            density: 4.009,
             postcodeAreas: 4,
-            rankUK: 153
+            rankUK: 43
         }
     },
     {
-        name: "Windsor",
-        image: "image/windsor.jpg",
+        name: "Mansfield",
+        image: "image/mansfield.jpg",
         attributes: {
-            area: 40.0,
-            population: 32000,
-            density: 800,
+            area: 48.4,
+            population: 171.958,
+            density: 3.556,
             postcodeAreas: 5,
-            rankUK: 120
+            rankUK: 44
         }
     },
     {
-        name: "Stamford",
-        image: "image/stamford.jpg",
+        name: "Warrington",
+        image: "image/warrington.jpg",
         attributes: {
-            area: 10.0,
-            population: 20000,
-            density: 2000,
+            area: 44.9,
+            population: 165.456,
+            density: 3.686,
             postcodeAreas: 3,
-            rankUK: 160
+            rankUK: 46
         }
     },
     {
-        name: "Sandwich",
-        image: "image/sandwich.jpg",
+        name: "Slough",
+        image: "image/slough.jpg",
         attributes: {
-            area: 5.0,
-            population: 4000,
-            density: 800,
+            area: 34.1,
+            population: 163.777,
+            density: 4.797,
             postcodeAreas: 2,
-            rankUK: 170
+            rankUK: 47
         }
     }
 ];
-
-console.log( cards.length );
 
 
 cards.forEach(card => {
