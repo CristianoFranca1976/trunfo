@@ -36,7 +36,7 @@ function getPlayerName() {
         playerNameSave = name.charAt(0).toUpperCase() + name.slice(1);
         playerNameDisplay.textContent = playerNameSave;
         playerNameDisplay1.textContent = `${playerNameSave} VS Computer`;
-
+        
         playerNameInput.value = '';
         dados.style.display = 'none';
         document.getElementById('container').style.opacity = '1';
@@ -70,8 +70,8 @@ function updateCardDisplay(card, element, isPlayer = true) {
             <p>Area: <button onclick="playRound('area')" class="btn-round"> ${card.attributes.area} </button> km²</p>
             <p>Population: <button onclick="playRound('population')" class="btn-round"> ${card.attributes.population} </button> people</p>
             <p>Density: <button onclick="playRound('density')" class="btn-round"> ${card.attributes.density} </button> people/km²</p>
-            <p>Postcode Areas: <button onclick="playRound('postcodeAreas')" class="btn-round"> ${card.attributes.postcodeAreas} </button></p>
-            <p>Rank in UK: <button onclick="playRound('rankUK')" class="btn-round"> ${card.attributes.rankUK} </button> in the UK</p>
+            <p>Subdivisions: <button onclick="playRound('subdivisions')" class="btn-round"> ${card.attributes.subdivisions} </button></p>
+            <p>Rank in UK: <button onclick="playRound('rankUK')" class="btn-round"> ${card.attributes.rankUK} </button> </p>
         </div>
     `;
 }
@@ -86,6 +86,8 @@ function setTurnMessage() {
     if (isPlayerTurn) {
         result.innerHTML = `<p>Your turn. Choose an attribute.</p>`;
     } else {
+        document.querySelectorAll('.btn-round').forEach(btn => btn.style.background = "red");
+        document.querySelectorAll('.btn-round').forEach(btn => btn.style.cursor = "no-drop");
         result.innerHTML = `<p>The computer is playing...</p>`;
     }
 }
@@ -111,8 +113,8 @@ function nextRound() {
             <p>Area: <span class="attribute-value">${currentComputerCard.attributes.area} km²</span></p>
             <p>Population: <span class="attribute-value">${currentComputerCard.attributes.population} people</span></p>
             <p>Density: <span class="attribute-value">${currentComputerCard.attributes.density} people/km²</span></p>
-            <p>Postcode Areas: <span class="attribute-value">${currentComputerCard.attributes.postcodeAreas}</span></p>
-            <p>Rank in UK: <span class="attribute-value">${currentComputerCard.attributes.rankUK} in the UK</span></p>
+            <p>Subdivisions: <span class="attribute-value">${currentComputerCard.attributes.subdivisions}</span></p>
+            <p>Rank in UK: <span class="attribute-value">${currentComputerCard.attributes.rankUK} </span></p>
         </div>`;
     
     showCardCounts();
@@ -127,7 +129,7 @@ function nextRound() {
 
 function simulateComputerMove() {
     setTimeout(() => {
-        const attributes = ['area', 'population', 'density', 'postcodeAreas'];
+        const attributes = ['area', 'population', 'density', 'subdivisions'];
         const randomAttribute = attributes[Math.floor(Math.random() * attributes.length)];
         playRound(randomAttribute, true);
     }, 2000);
@@ -137,7 +139,8 @@ window.playRound = function(attribute, isAuto = false) {
     if (!isPlayerTurn && !isAuto) return;
 
     document.querySelectorAll('.btn-round').forEach(btn => btn.disabled = true);
-
+    document.querySelectorAll('.btn-round').forEach(btn => btn.style.background = "red");
+    document.querySelectorAll('.btn-round').forEach(btn => btn.style.cursor = "no-drop");
     const playerValue = currentPlayerCard.attributes[attribute];
     const computerValue = currentComputerCard.attributes[attribute];
     const attributeValues = document.querySelectorAll('.attribute-value');
@@ -202,6 +205,7 @@ document.getElementById('playButton').addEventListener("click", () => {
     distributeCards();
     isPlayerTurn = true;
     nextRound();
+    document.getElementById('playButton').style.display = "none"
 });
 document.getElementById('exitButton').addEventListener("click", () => {
     location.reload();

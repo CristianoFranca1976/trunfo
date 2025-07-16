@@ -8,7 +8,7 @@ const cards = [
             area: 1737.9,
             population: 9787.426,
             density: 5.630,
-            postcodeAreas: 120,
+            subdivisions: 8,
             rankUK: 1
         }
     },
@@ -19,7 +19,7 @@ const cards = [
             area: 176.4,
             population: 729.977,
             density: 4.139,
-            postcodeAreas: 12,
+            subdivisions: 6,
             rankUK: 9
         }
     },
@@ -30,7 +30,7 @@ const cards = [
             area: 630.3,
             population: 2553.379,
             density: 4.051,
-            postcodeAreas: 35,
+            subdivisions: 11,
             rankUK: 2
         }
     },
@@ -41,7 +41,7 @@ const cards = [
             area: 598.9,
             population: 2440.986,
             density: 4.076,
-            postcodeAreas: 40,
+            subdivisions: 6,
             rankUK: 3
         }
     },
@@ -52,7 +52,7 @@ const cards = [
             area: 199.6,
             population: 864.122,
             density: 4.329,
-            postcodeAreas: 15,
+            subdivisions: 7,
             rankUK: 6
         }
     },
@@ -63,7 +63,7 @@ const cards = [
             area: 144.4,
             population: 617.280,
             density: 4.274,
-            postcodeAreas: 20,
+            subdivisions: 9,
             rankUK: 11
         }
     },
@@ -74,7 +74,7 @@ const cards = [
             area: 37.4,
             population: 171.380,
             density: 4.585,
-            postcodeAreas: 12,
+            subdivisions: 3,
             rankUK: 45
         }
     },
@@ -85,7 +85,7 @@ const cards = [
             area: 81.3,
             population: 359.262,
             density: 4.420,
-            postcodeAreas: 12,
+            subdivisions: 2,
             rankUK: 20
         }
     },
@@ -96,7 +96,7 @@ const cards = [
             area: 89.4,
             population: 474.485,
             density: 5.304,
-            postcodeAreas: 10,
+            subdivisions: 4,
             rankUK: 15
         }
     },
@@ -107,7 +107,7 @@ const cards = [
             area: 180.5,
             population: 774.891,
             density: 4.292,
-            postcodeAreas: 12,
+            subdivisions: 4,
             rankUK: 8
         }
     },
@@ -118,7 +118,7 @@ const cards = [
             area: 167.5,
             population: 685.368,
             density: 4.092,
-            postcodeAreas: 28,
+            subdivisions: 3,
             rankUK: 10
         }
     },
@@ -129,7 +129,7 @@ const cards = [
             area: 42.1,
             population: 158.434,
             density: 3.760,
-            postcodeAreas: 12,
+            subdivisions: 4,
             rankUK: 49
         }
     },
@@ -140,7 +140,7 @@ const cards = [
             area: 487.8,
             population: 1777.934,
             density: 6950,
-            postcodeAreas: 33,
+            subdivisions: 7,
             rankUK: 4
         }
     },
@@ -151,7 +151,7 @@ const cards = [
             area: 29.0,
             population: 94.092,
             density: 3.214,
-            postcodeAreas: 12,
+            subdivisions: 3,
             rankUK: 14
         }
     },
@@ -162,7 +162,7 @@ const cards = [
             area: 109.4,
             population: 508.916,
             density: 4.653,
-            postcodeAreas: 16,
+            subdivisions: 8,
             rankUK: 13
         }
     },
@@ -173,7 +173,7 @@ const cards = [
             area: 192.0,
             population: 855.569,
             density: 4.455,
-            postcodeAreas: 2,
+            subdivisions: 6,
             rankUK: 7
         }
     },
@@ -184,7 +184,7 @@ const cards = [
             area: 59.7,
             population: 260.263,
             density: 4.356,
-            postcodeAreas: 1,
+            subdivisions: 1,
             rankUK: 30
         }
     },
@@ -195,7 +195,7 @@ const cards = [
             area: 180.5,
             population: 774.891,
             density: 4.292,
-            postcodeAreas: 1,
+            subdivisions: 4,
             rankUK: 8
         }
     },
@@ -206,7 +206,7 @@ const cards = [
             area: 82.6,
             population: 314.018,
             density: 3.802,
-            postcodeAreas: 1,
+            subdivisions: 3,
             rankUK: 24
         }
     },
@@ -217,7 +217,7 @@ const cards = [
             area: 960,
             population: 595.879,
             density: 620,
-            postcodeAreas: 1,
+            subdivisions: 6,
             rankUK: 12
         }
     },
@@ -228,7 +228,7 @@ const cards = [
             area: 102.3,
             population: 447.287,
             density: 4.370,
-            postcodeAreas: 1,
+            subdivisions: 4,
             rankUK: 17
         }
     },
@@ -239,7 +239,7 @@ const cards = [
             area: 64.1,
             population: 270.468,
             density: 4.219,
-            postcodeAreas: 1,
+            subdivisions: 3,
             rankUK: 29
         }
     },
@@ -250,7 +250,7 @@ const cards = [
             area: 103.9,
             population: 372.775,
             density: 3.588,
-            postcodeAreas: 1,
+            subdivisions: 3,
             rankUK: 19
         }
     },
@@ -261,9 +261,9 @@ const cards = [
             area: 131.0,
             population: 466.266,
             density: 4200,
-            postcodeAreas: 1,
+            subdivisions: 6,
             rankUK: 16
-        } // atualizado ate aqui.
+        } 
     },
     {
         name: "Teesside",
@@ -272,7 +272,7 @@ const cards = [
             area: 108.2,
             population: 376.633,
             density: 3.482,
-            postcodeAreas: 1,
+            subdivisions: 4,
             rankUK: 18        }
     },
     {
@@ -282,7 +282,7 @@ const cards = [
             area: 88.2,
             population: 325.264,
             density: 3.687,
-            postcodeAreas: 1,
+            subdivisions: 2,
             rankUK: 22
         }
     },
@@ -293,7 +293,7 @@ const cards = [
             area: 82.4,
             population: 313.322,
             density: 3.802,
-            postcodeAreas: 1,
+            subdivisions: 5,
             rankUK: 25
         }
     },
@@ -304,7 +304,7 @@ const cards = [
             area: 125,
             population: 482.270,
             density: 4.172,
-            postcodeAreas: 1,
+            subdivisions: 3,
             rankUK: 14
         }
     },
@@ -315,7 +315,7 @@ const cards = [
             area: 83.7,
             population: 318.014,
             density: 3.800,
-            postcodeAreas: 1,
+            subdivisions: 4,
             rankUK: 23
         }
     },
@@ -326,7 +326,7 @@ const cards = [
             area: 43.5,
             population: 158.141,
             density: 3.634,
-            postcodeAreas: 22,
+            subdivisions: 4,
             rankUK: 50
         }
     },
@@ -337,7 +337,7 @@ const cards = [
             area: 84.2,
             population: 306.844,
             density: 3.643,
-            postcodeAreas: 8,
+            subdivisions: 6,
             rankUK: 26
         }
     },
@@ -348,7 +348,7 @@ const cards = [
             area: 87.6,
             population: 300.352,
             density: 3.431,
-            postcodeAreas: 4,
+            subdivisions: 5,
             rankUK: 27
         }
     },
@@ -359,7 +359,7 @@ const cards = [
             area: 50.7,
             population: 258.018,
             density: 5.088,
-            postcodeAreas: 10,
+            subdivisions: 3,
             rankUK: 31
         }
     },
@@ -370,7 +370,7 @@ const cards = [
             area: 34.0,
             population: 153.717,
             density: 4.518,
-            postcodeAreas: 14,
+            subdivisions: 6,
             rankUK: 52
         }
     },
@@ -381,7 +381,7 @@ const cards = [
             area: 61.3,
             population: 239.409,
             density: 3.908,
-            postcodeAreas: 6,
+            subdivisions: 5,
             rankUK: 34
         }
     },
@@ -392,7 +392,7 @@ const cards = [
             area: 69.5,
             population: 208.190,
             density: 3.050,
-            postcodeAreas: 45,
+            subdivisions: 1,
             rankUK: 39
         }
     },
@@ -403,7 +403,7 @@ const cards = [
             area: 47.1,
             population: 185.609,
             density: 3.945,
-            postcodeAreas: 18,
+            subdivisions: 6,
             rankUK: 40
         }
     },
@@ -414,7 +414,7 @@ const cards = [
             area: 58.1,
             population: 180.508,
             density: 3.107,
-            postcodeAreas: 3,
+            subdivisions: 5,
             rankUK: 41
         }
     },
@@ -425,7 +425,7 @@ const cards = [
             area: 40.4,
             population: 150.053,
             density: 3.718,
-            postcodeAreas: 7,
+            subdivisions: 2,
             rankUK: 53
         }
     },
@@ -436,7 +436,7 @@ const cards = [
             area: 26.2,
             population: 111.511,
             density: 4.259,
-            postcodeAreas: 13,
+            subdivisions: 2,
             rankUK: 72
         }
     },
@@ -447,7 +447,7 @@ const cards = [
             area: 49.1,
             population: 178.835,
             density: 3.639,
-            postcodeAreas: 5,
+            subdivisions: 3,
             rankUK: 42
         }
     },
@@ -458,7 +458,7 @@ const cards = [
             area: 137.5,
             population: 335.415,
             density: 4.018,
-            postcodeAreas: 15,
+            subdivisions: 4,
             rankUK: 21
         }
     },
@@ -469,7 +469,7 @@ const cards = [
             area: 62.5,
             population: 229.941,
             density: 3.678,
-            postcodeAreas: 12,
+            subdivisions: 4,
             rankUK: 35
         }
     },
@@ -480,7 +480,7 @@ const cards = [
             area: 28.5,
             population: 117.763,
             density: 4.133,
-            postcodeAreas: 11,
+            subdivisions: 2,
             rankUK: 67
         }
     },
@@ -491,7 +491,7 @@ const cards = [
             area: 43.8,
             population: 175.405,
             density: 4.009,
-            postcodeAreas: 4,
+            subdivisions: 4,
             rankUK: 43
         }
     },
@@ -502,7 +502,7 @@ const cards = [
             area: 48.4,
             population: 171.958,
             density: 3.556,
-            postcodeAreas: 5,
+            subdivisions: 4,
             rankUK: 44
         }
     },
@@ -513,7 +513,7 @@ const cards = [
             area: 44.9,
             population: 165.456,
             density: 3.686,
-            postcodeAreas: 3,
+            subdivisions: 1,
             rankUK: 46
         }
     },
@@ -524,15 +524,11 @@ const cards = [
             area: 34.1,
             population: 163.777,
             density: 4.797,
-            postcodeAreas: 2,
+            subdivisions: 3,
             rankUK: 47
         }
     }
 ];
 
-
-cards.forEach(card => {
-    console.log(`Name: ${card.name}, Area: ${card.attributes.area}, Population: ${card.attributes.population}`);
-});
 
 export { cards };
