@@ -67,9 +67,9 @@ function updateCardDisplay(card, element, isPlayer = true) {
             <p>${card.name}</p>
         </div>
         <div class="attributes">
-            <p>Area: <button onclick="playRound('area')" class="btn-round"> ${card.attributes.area} </button> km²</p>
-            <p>Population: <button onclick="playRound('population')" class="btn-round"> ${card.attributes.population} </button> people</p>
-            <p>Density: <button onclick="playRound('density')" class="btn-round"> ${card.attributes.density} </button> people/km²</p>
+            <p>Area: <button onclick="playRound('area')" class="btn-round"> ${card.attributes.area} </button></p>
+            <p>Population: <button onclick="playRound('population')" class="btn-round"> ${card.attributes.population} </button></p>
+            <p>Density: <button onclick="playRound('density')" class="btn-round"> ${card.attributes.density} </button></p>
             <p>Subdivisions: <button onclick="playRound('subdivisions')" class="btn-round"> ${card.attributes.subdivisions} </button></p>
             <p>Rank in UK: <button onclick="playRound('rankUK')" class="btn-round"> ${card.attributes.rankUK} </button> </p>
         </div>
@@ -110,9 +110,9 @@ function nextRound() {
             <p>${currentComputerCard.name}</p>
         </div>
         <div class="attributes">
-            <p>Area: <span class="attribute-value">${currentComputerCard.attributes.area} km²</span></p>
-            <p>Population: <span class="attribute-value">${currentComputerCard.attributes.population} people</span></p>
-            <p>Density: <span class="attribute-value">${currentComputerCard.attributes.density} people/km²</span></p>
+            <p>Area: <span class="attribute-value">${currentComputerCard.attributes.area}</span></p>
+            <p>Population: <span class="attribute-value">${currentComputerCard.attributes.population}</span></p>
+            <p>Density: <span class="attribute-value">${currentComputerCard.attributes.density}</span></p>
             <p>Subdivisions: <span class="attribute-value">${currentComputerCard.attributes.subdivisions}</span></p>
             <p>Rank in UK: <span class="attribute-value">${currentComputerCard.attributes.rankUK} </span></p>
         </div>`;

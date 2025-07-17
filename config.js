@@ -139,7 +139,7 @@ const cards = [
         attributes: {
             area: 487.8,
             population: 1777.934,
-            density: 6950,
+            density: 6.950,
             subdivisions: 7,
             rankUK: 4
         }

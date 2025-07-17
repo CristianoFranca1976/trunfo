@@ -206,7 +206,7 @@ input[type="text"]:focus {
 }
 
 .card-image {
-    width: 100%;
+    width: 280px;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -229,15 +229,25 @@ input[type="text"]:focus {
 
 .attributes {
     width: 100%;
+    height: 220px;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
     border-radius: 6px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
 }
 
 .attributes p {
+    border-bottom: 1px solid rgb(252, 250, 250);
     color: #fff;
     margin: 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .attribute-value {
@@ -367,7 +377,12 @@ nav {
   from { opacity: 0; transform: scale(0.9); }
   to { opacity: 1; transform: scale(1); }
 }
-
+.game-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 #result {
     font-size: 1.3em;
